@@ -1,0 +1,39 @@
+body{
+  background-color: rgb(221, 221, 250);
+  height: 100%;
+  width: 100%; 
+  justify-content: center;
+}
+.container{
+  text-align: center;
+  border-color: rgb(10, 10, 10);
+  border-width: 2px;
+  border-style: double;
+  align-content: center;
+  width: 350px;
+  height: 350px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+.container h2{
+  font-size: 35px;
+}
+.container button{
+  padding: 10px;
+  border: None;
+  background-color: rgb(135, 135, 245);
+  color: white;
+  width: 80px;
+  border-radius: 10px;
+}
+.Filinput{
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+  margin: 15px;
+}
+.Filinput input{
+  border-radius: 3px;
+  height: 30px;
+}
