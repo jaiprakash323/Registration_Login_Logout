@@ -24,13 +24,14 @@ CORS_ALLOW_ALL_ORIGINS = True
 # BACKEND 
 --> django-admin startproject backend
 --> cd backend
---> python manage.py startapp myaap
+--> python manage.py startapp users
 --> python manage.py createsuperuser
 --> python manage.py runserver
 # FRONTEND
---> npm create vite@latest myapp
---> cd myapp
+--> npm create vite@latest frontend
+--> cd frontend
 --> npm install
+--> npm install react-router-dom
 --> npm run dev # to start
 # FRONTEND
 --> npx create-react-app myapp
