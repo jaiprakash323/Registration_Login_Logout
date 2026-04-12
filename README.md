@@ -25,6 +25,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 --> django-admin startproject backend
 --> cd backend
 --> python manage.py startapp users
+--> python manage.py makemigrations
+--> python manage.py migrate
 --> python manage.py createsuperuser
 --> python manage.py runserver
 # FRONTEND
@@ -32,8 +34,12 @@ CORS_ALLOW_ALL_ORIGINS = True
 --> cd frontend
 --> npm install
 --> npm install react-router-dom
+--> npm install axios
 --> npm run dev # to start
 # FRONTEND
 --> npx create-react-app myapp
 --> cd myapp
+--> npm install
+--> npm install react-router-dom
+--> npm install axios
 --> npm start
