@@ -79,11 +79,11 @@ WSGI_APPLICATION = "config.wsgi.application"
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'reg_db',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'pgAdmin323',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'DBThiGOMGwTIqNlQyICmcsMILDmosKsH',
+        'HOST': 'nozomi.proxy.rlwy.net',
+        'PORT': '20609',
     }
 }
 
