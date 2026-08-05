@@ -1,13 +1,16 @@
 import axios from "axios";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 function Register(){
     const [form, setForm] = useState({ username: "", email: "", password: ""});
+    const navigate = useNavigate();
 
     const handleRegister = async () => {
         await axios.post("http://127.0.0.1:8000/api/register/", form);
         alert("Registered!");
+        navigate("/");
     };
 
     return (
