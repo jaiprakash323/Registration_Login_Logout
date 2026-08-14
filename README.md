@@ -2,9 +2,7 @@
 
 A task management application with JWT authentication, CRUD operations, and responsive UI for mobile, tablet, and desktop screens.
 
-![image alt](https://github.com/jaiprakash323/Registration_Login_Logout/blob/87502d31907c9e4af848e97ada8670d2be455b5e/image-1.png)
-![image alt](https://github.com/jaiprakash323/Registration_Login_Logout/blob/20c46f77cd6dad63d722c0808de1aea4865c001d/image-2.png)
-![image alt](https://github.com/jaiprakash323/Registration_Login_Logout/blob/dde2d89e258015b60e1cc31f16c4a2f963921f81/image-3.png)
+![image alt]()
 
 ## Setup Instructions
 
