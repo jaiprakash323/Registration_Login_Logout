@@ -1,4 +1,4 @@
-# Task App - Full Stack Application
+# TODO App - Full Stack Application
 
 A task management application with JWT authentication, CRUD operations, and responsive UI for mobile, tablet, and desktop screens.
 
